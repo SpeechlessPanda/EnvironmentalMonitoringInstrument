@@ -2,10 +2,13 @@
 
 # 环境监测仪
 
-**哈尔滨工业大学（深圳）** · 电子工艺实习 · 题号 E1 · 优秀项目
+哈尔滨工业大学（深圳）电子工艺实习 · 题号 E1
+
+**优秀项目** — 由任课教师评选的课程荣誉
 
 手持环境监测仪：MSPM0G3507 采集气压、温湿度、光照，OLED 分页显示，超阈值蜂鸣器 / LED 报警，HC-05 把数据透传到浏览器面板。
 
+[![优秀项目](https://img.shields.io/badge/优秀项目-任课教师评选-C8102E?style=for-the-badge)](#优秀项目)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)](LICENSE)
 [![MCU](https://img.shields.io/badge/MCU-MSPM0G3507-C8102E?style=flat-square)](#固件)
 [![Display](https://img.shields.io/badge/OLED-SSD1306-111111?style=flat-square)](#功能)
@@ -18,6 +21,10 @@
 </p>
 
 </div>
+
+## 优秀项目
+
+本仓库是哈尔滨工业大学（深圳）电子工艺实习（题号 E1）选题下的作品，由**任课教师评选为优秀项目**。
 
 ## 功能
 
@@ -76,10 +83,6 @@ GCC / IAR / TIClang 目录是 SDK 空工程模板，**不会**链入 BSP，不�
 更细的构建说明见 [firmware/README.md](firmware/README.md)。
 
 ## 网页端
-
-<p align="center">
-  <img src="docs/images/web-dashboard.jpg" width="36%" alt="BLE 传感器面板"/>
-</p>
 
 Chrome / Edge，HTTPS 或 `localhost`。先在系统蓝牙里配对名为 `HC-05` 的模块，打开 [`web/index.html`](web/index.html)，点「扫描并连接」。
 

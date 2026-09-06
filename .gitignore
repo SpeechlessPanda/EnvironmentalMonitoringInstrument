@@ -1,0 +1,46 @@
+# Course paperwork, oversized demos, and PII — keep on disk, never push
+_local/
+
+# Toolchain / IDE
+.claude/
+*.uvguix.*
+*.uvoptx
+JLinkLog.txt
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Build products (keep firmware/prebuilt/*.hex)
+firmware/keil/Objects/
+firmware/keil/Listings/
+*.o
+*.d
+*.obj
+*.axf
+*.elf
+*.out
+*.map
+*.lnp
+*.dep
+*.iex
+*.hex
+!firmware/prebuilt/*.hex
+*.build_log.htm
+*.lst
+
+# OS / Python leftovers
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.pyc
+_reorg.py
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa

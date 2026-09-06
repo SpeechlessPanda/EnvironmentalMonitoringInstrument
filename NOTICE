@@ -1,0 +1,20 @@
+This repository contains original application code, hardware files, and
+documentation for the environmental monitor, licensed under MIT (see LICENSE).
+
+Third-party material:
+
+1. Texas Instruments MSPM0 SDK example fragments
+   (startup files, SysConfig templates, GCC/IAR/TIClang project stubs,
+   `ti_msp_dl_config.*` generated from `empty.syscfg`)
+   Copyright (C) Texas Instruments Incorporated
+   Redistribution terms are the TI BSD-style license in
+   `firmware/iar/startup_mspm0g350x_iar.c`.
+   The MSPM0 SDK itself is NOT vendored here. Obtain it from TI.
+
+2. Board-support snippets originating from 立创开发板 / LCKFB
+   (`firmware/board.c`, `firmware/BSP/*.c` headers)
+   Source notes point to https://www.lckfb.com and https://oshwhub.com/forum
+   Those files retain their original comment headers.
+
+Do not copy Texas Instruments or LCKFB trademarks as if this project
+were an official product of those organizations.

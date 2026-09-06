@@ -1,0 +1,32 @@
+* text=auto
+
+*.c text eol=lf
+*.h text eol=lf
+*.s text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.syscfg text eol=lf
+*.lds text eol=lf
+*.cmd text eol=lf
+
+*.uvprojx text eol=crlf
+*.sct text eol=crlf
+*.ini text eol=crlf
+*.ewp text eol=crlf
+*.ewd text eol=crlf
+*.icf text eol=crlf
+*.scvd text eol=crlf
+*.ipcf text eol=crlf
+*.projectspec text eol=crlf
+
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.pdf binary
+*.xlsx binary
+*.docx binary
+*.hex binary
+*.eprj2 binary
+*.a binary

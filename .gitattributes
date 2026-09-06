@@ -29,4 +29,5 @@
 *.docx binary
 *.hex binary
 *.eprj2 binary
+*.3mf binary
 *.a binary

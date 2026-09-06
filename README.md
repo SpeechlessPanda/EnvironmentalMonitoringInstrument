@@ -1,6 +1,6 @@
 # 环境监测仪
 
-哈尔滨工业大学（深圳）电子工艺实习项目（题号 E1）。本仓库为该选题下的优秀项目。手持环境监测仪：MSPM0G3507 采集气压、温湿度、光照，OLED 分页显示，超阈值蜂鸣器/LED 报警，HC-05 把数据透传到浏览器面板。
+哈尔滨工业大学（深圳）电子工艺实习项目（题号 E1）。**本仓库为该选题下的优秀项目**。手持环境监测仪：MSPM0G3507 采集气压、温湿度、光照，OLED 分页显示，超阈值蜂鸣器/LED 报警，HC-05 把数据透传到浏览器面板。
 
 ![开机](docs/images/boot.jpg)
 ![OLED 分页](docs/images/oled-pages.jpg)
@@ -24,7 +24,7 @@
 ```
 firmware/     MSPM0G3507 固件（Keil 主路径）
 web/          单页 Web Bluetooth 面板
-hardware/     EasyEDA Pro 工程 PCB.eprj2 + 底板 BOM
+hardware/     EasyEDA Pro 工程、底板 BOM、外壳 3D 模型
 docs/         使用说明、流程图、截图、功能 checklist
 assets/       OLED 开机动画源图
 ```
@@ -86,6 +86,7 @@ Light: 123 lx
 
 - `hardware/PCB.eprj2`：EasyEDA Pro 工程（传感器盾板）。
 - `hardware/BOM-shield.xlsx`：底板焊料（蜂鸣器、按键、LED、排母）。
+- `hardware/enclosure/`：外壳 / 底座 / 按键 3mf（Bambu / Prusa 可直接切片）。
 - 传感器与蓝牙清单：[docs/parts.md](docs/parts.md)。
 
 ## 使用
